@@ -9,8 +9,27 @@
   --background-team-color: #f5f4fa;
   --font-size-main: 14px;
 }
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 body {
+  margin: 0;
   background-color: var(--background-body-color);
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
