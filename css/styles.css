@@ -284,16 +284,20 @@ body {
 
 /*------------------------Команда --------------------------------*/
 .section.team {
-  background-color: var(--background-body-color);
+  background-color: var(--background-team-color);
 }
 .team-list {
   display: flex;
 }
 .team-item {
   width: 270px;
+  background: var(--background-body-color);
 }
 .team-item:not(:last-child) {
   margin-right: 30px;
+}
+.team-item:last-child {
+  padding-bottom: 94px;
 }
 .team-photo {
   margin-bottom: 30px;
